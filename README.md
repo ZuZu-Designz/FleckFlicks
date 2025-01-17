@@ -11,5 +11,4 @@ HTML: Structure and layout.
 CSS: Styling, flexbox for layout, and animations for smooth interactions.
 
 # Demo
-Watch the project in action here: 
-https://github.com/user-attachments/assets/1848b368-1bbc-43c7-a9a0-9d3b92ad35b0
+Watch the project in action here: https://github.com/user-attachments/assets/1848b368-1bbc-43c7-a9a0-9d3b92ad35b0
