@@ -1,0 +1,113 @@
+body {
+  background-image: url('https://img.freepik.com/free-photo/digital-art-dark-cosmic-night-sky_23-2151700773.jpg?semt=ais_hybrid');
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
+  background-color: #1c1c1c;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+} 
+
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.941);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.intro {
+  background-color: rgba(28, 28, 28, 0.6);
+  text-wrap: wrap;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.showcase {
+  border-radius: 10px;
+  width: 75%;
+  padding: 20px;
+  height: 100%;
+}
+
+.movies {
+  display: flex;
+  gap: 5px;
+  height: 100%;
+  width: 75%;
+}
+
+.movie {
+  border: 2px solid #555;
+  display: flex;
+  max-width: 500px;
+  max-height: 500px;
+  flex: 1 2rem;
+  align-items: flex-end;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+
+.movie:hover {
+  flex: 10;
+}
+
+.movie h3 {
+  white-space: nowrap;
+  color: #fff;
+  margin: 1rem 0.8rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.movie:nth-child(1) {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyLy1dIl8OPnWix8F4outcimE2d3ZViT7ag&s');
+}
+
+.movie:nth-child(2) {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgERjSw0iYlzf4XKZExElSNc3QPcV6oE5a3w&s');
+}
+
+.movie:nth-child(3) {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5FVezVgVJFzFeEL4BQ2jAJ7hmbjSWswEig&s');
+}
+
+.movie:nth-child(4) {
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/44EEA484C052BC09983FA33CB8523F4BF7BE56112B8D582E8CFB407A5F2E04F2/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp');
+}
+
+.movie:nth-child(5) {
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7705D5483027109575B84B0A82DE0435229AC6EDE2CA650DC46EB5269DAD1982/scale?width=506&amp;aspectRatio=2.00&amp;format=webp');
+}
+
+.movie:nth-child(6) {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm0j_lD2ATKVHhEbE8bdOZa62SL_lVN_riAA&s');
+}
